@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: blue;
+}
+.corner {
+  position: fixed;
+  z-index: 5;
+  background-size: cover!important;
+  &_lt {
+    background: url(../img/corner-lt.png) no-repeat;
+    top: 0;
+    left: 0;
+    width: 41.5rem;
+    height: 27.7rem;
+  }
+  &_rt {
+    background: url(../img/corner-rt.png) no-repeat;
+    top: 0;
+    right: 0;
+    width: 78.2rem;
+    height: 45rem;
+  }
+}
